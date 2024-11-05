@@ -8,9 +8,12 @@
          org.clj-commons/pretty                        {:mvn/version "3.2.0"}
          com.taoensso/timbre                           {:mvn/version "6.6.0-RC1"}
          com.taoensso/encore                           {:mvn/version "3.122.0"}
-         ;com.fulcrologic/statecharts                   {:mvn/version "1.2.5"}
-         com.fulcrologic/statecharts                   {:git/url "https://github.com/michaelwhitford/statecharts.git"
-                                                        :git/sha "4643d2001c15a5bd8eec3bab2c20daeb520c9723"}
+         com.fulcrologic/statecharts                   {:mvn/version "1.2.6"}
+         ;com.fulcrologic/statecharts                   {:git/url "https://github.com/michaelwhitford/statecharts.git"
+         ;                                               :git/sha "926d1234cff75f6507ddccbc648274efac3a1c2a"}
          djblue/portal                                 {:mvn/version "0.58.0"}
          selmer/selmer                                 {:mvn/version "1.12.61"}
-         lumiere/lumiere                               {:mvn/version "1.0.0-SNAPSHOT"}}}
+         lumiere/lumiere                               {:mvn/version "1.0.0-SNAPSHOT"}
+         com.phronemophobic/clj-graphviz               {:mvn/version "0.6.4"}
+         dorothy/dorothy                                {:git/url "https://github.com/daveray/dorothy.git"
+                                                         :git/sha "207570804dfda2162a15b9ee55b5e76ec6e1ecfa"}}}
